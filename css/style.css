@@ -1,0 +1,129 @@
+body{
+    background: #b2b2b2;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+Header{
+    display: flex;
+    height:auto;
+    justify-content: flex-end;
+    background-color: #b2b2b2;
+    width:100%;
+    padding: 10px;
+    border-bottom: 3px solid oldlace;
+}
+
+
+.menu{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    
+     margin-right: 60px;
+       
+  
+}
+.menu a{
+    display: inline-block;
+    margin-right: 60px;
+    padding: 10px;
+    text-decoration: none;
+    color: oldlace;
+}
+
+.imgEntrada{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2b2b2;
+          
+}
+.imgEntrada img{
+width: 500px;
+height: auto;
+}
+#Biografia{
+    padding: 40px;
+    
+    text-align: end;
+    font-size: 25px;
+    border-top: 3px solid oldlace;
+    color: whitesmoke;
+    
+}
+.textoColumn {
+    
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 3px solid oldlace;
+    
+}
+.TextoBiografia{
+    flex: 2;
+    justify-content: center;
+    text-align: justify;
+    color: whitesmoke;
+    padding: 20px;
+    border-right: 1px solid oldlace;
+}
+
+.imgSec{
+    height: auto;
+    width: auto;
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+
+#filmografia{
+    padding: 40px;
+    display: flex;
+    text-align: end;
+    font-size: 25px;
+    border-top: 3px solid oldlace;
+    color: whitesmoke;
+    border-bottom: 3px solid oldlace;
+    
+}
+.containerFIlm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgTerc{
+     
+    
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    margin-right: 60px;
+    border-right:1px solid oldlace ;
+    justify-content: center;
+}
+.imgEntrada img{
+    align-items: center;
+    justify-content: center;
+}
+.textoFilm{
+    flex:3;
+    font-size: 14px;
+    justify-content: center;
+    text-align: justify ;
+    color: whitesmoke;
+}
+.imgTerc a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.imgTerc figure{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}

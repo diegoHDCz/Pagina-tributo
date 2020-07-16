@@ -1,0 +1,12 @@
+@media (max-width: 600px){
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.containerFIlm{
+    display: flex;
+    flex-direction: column;
+}
+
+}
